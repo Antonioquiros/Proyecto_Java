@@ -5,7 +5,9 @@ public abstract class Propiedades {
     private int metrosCuadrados;
 
     public Propiedades(double precio, int metrosCuadrados) {
+
         this.precio = precio;
+        this.metrosCuadrados = metrosCuadrados;
     }
 
     public double getPrecio() {
